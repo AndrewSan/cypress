@@ -4,7 +4,7 @@ class Tours_3D{
     
     // locators
 
-    tours3dButton = "a[input[contains(@value.3D тури)]]"
+    globalSearchOptions = "(//div[class=\"show-popup-filter\"])[2]"
 
 
     // methods

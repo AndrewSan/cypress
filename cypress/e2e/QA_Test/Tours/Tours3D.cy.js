@@ -10,7 +10,7 @@ describe("3DTours",function(){
         activities.getDefoultPage().setExtensionSettings()
 
         activities.getLoginPage().GoToSite()
-        // activities.getLoginPage().DoLogin()
+        activities.getLoginPage().DoLogin()
 
         activities.getTours3DPage().Press3DToursButton()
     });
